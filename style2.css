@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 0 40px 0;
+
+}
+
+.header{
+    background: rgb(224, 223, 223);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+
+.col-2 img {
+
+    border-radius: 50%;
+    width: 50%;
+    margin: 10px 20px;
+    align-items: center;
+    float: right;
+    
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 p {
+    padding: 10px 0;
+}
+.col-2 button {
+
+    padding: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-2 .btn1 {
+    background: red;
+}
+
+.col-2 .btn2 {
+    background: yellow;
+}
+
+.col-2 .btn3 {
+    background: lightblue;
+}
+
+.col-2 button:hover {
+    background: white;
+}
